@@ -54,7 +54,7 @@ func getTobogganTreeStrikes(g [][]int, x int, y int) int {
 }
 
 func main() {
-	buf, err := ioutil.ReadFile("./data2.txt")
+	buf, err := ioutil.ReadFile("./data.txt")
 	if err != nil {
 		panic(err)
 	}
